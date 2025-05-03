@@ -2,7 +2,7 @@ version: "3.8"
 services:
   python_starter:
     build: .
-    container_name: "python-starter"
+    container_name: "py-image-metadata-embedder"
     volumes:
       - ./:/app
     # environment:
