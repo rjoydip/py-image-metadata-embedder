@@ -23,7 +23,7 @@ Embed metadata into image
 
 1. Clone the repository:
 
------
+______________________________________________________________________
 
 Install project dependencies:
 
@@ -55,6 +55,13 @@ uv run ruff check --fix
 uv run pyright
 ```
 
+- Pre commit:
+
+```bash
+uvx pre-commit install
+uvx pre-commit run
+```
+
 ### Docker Development
 
 Build and run the application in Docker:
@@ -83,7 +90,7 @@ uv-ci-template/
 ## 👥 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Create your feature branch (`git checkout -b feature/amazing-feature`)
+1. Commit your changes (`git commit -m 'Add some amazing feature'`)
+1. Push to the branch (`git push origin feature/amazing-feature`)
+1. Open a Pull Request

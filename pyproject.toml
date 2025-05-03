@@ -20,6 +20,10 @@ lint = [
     "ruff>=0.11.6",
 ]
 
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 # UV
 [tool.uv]
 upgrade = false
