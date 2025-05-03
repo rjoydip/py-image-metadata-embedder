@@ -163,7 +163,7 @@ wheels = [
 [[package]]
 name = "py-image-metadata-embedder"
 version = "0.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "piexif" },
     { name = "pillow" },
